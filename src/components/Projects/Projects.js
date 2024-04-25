@@ -6,6 +6,7 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import myntra from "../../Assets/Projects/myntra.png";
 import snapstay from "../../Assets/Projects/snapstay.png";
 import newsadda from "../../Assets/Projects/newsadda.png";
+import urbanoven from "../../Assets/Projects/urbanoven.png";
 
 function Projects() {
   return (
