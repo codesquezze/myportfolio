@@ -19,6 +19,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={urbanoven}
+              isBlog={false}
+              title="Urban Oven"
+              description="Created a full-stack pizza delivery responsive website Urban Oven using the MERN (MongoDB, Express.js, React, Node.js) stack.Implemented user registration and authentication to allow users to create accounts and log in securely.
+              It also includes login using the Google account.
+              Provide users with the ability to create and manage their profiles, including personal information, booking history, and preferences.
+             Implemented a Stripe payment gateway which provides this project a good standard."
+              ghLink="https://github.com/codesquezze/food-ordering-website"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={snapstay}
