@@ -20,7 +20,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={urbanoven}
               isBlog={false}
@@ -30,6 +30,20 @@ function Projects() {
               Provide users with the ability to create and manage their profiles, including personal information, booking history, and preferences.
              Implemented a Stripe payment gateway which provides this project a good standard."
               ghLink="https://github.com/codesquezze/food-ordering-website"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MistryHub}
+              isBlog={false}
+              title="MistryHub"
+              description="Implemented Client Professionals registration and authentication to allow users to create accounts and log in securely.
+Provide users with the ability to create and manage their profiles, including personal information, booking management,
+and allow them to choose their preferences.
+Implement a booking calendar with date and time selection and facility to give reward points.
+Rating facility to allow users to choose their servicemen based on others experience"
+              ghLink="https://github.com/codesquezze/MistryHub"
             />
           </Col>
 
@@ -66,7 +80,7 @@ function Projects() {
               description="Created a simple frontend of Myntra clone using HTML, CSS and JavaScript.
               Designed an intuitive and visually appealing user interface to highlight some products.
               User can also add/remove products from the cart and accordingly the total price will vary."
-              ghLink="https://github.com/codesquezze/Myntra_Clone.git"           
+              ghLink="https://github.com/codesquezze/Myntra_Clone.git"
             />
           </Col>
 
