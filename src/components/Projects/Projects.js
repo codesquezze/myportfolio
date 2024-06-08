@@ -7,6 +7,7 @@ import myntra from "../../Assets/Projects/myntra.png";
 import snapstay from "../../Assets/Projects/snapstay.png";
 import newsadda from "../../Assets/Projects/newsadda.png";
 import urbanoven from "../../Assets/Projects/urbanoven.png";
+import mistryhub from "../../Assets/Projects/mistryhub.png";
 
 function Projects() {
   return (
@@ -35,14 +36,14 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MistryHub}
+              imgPath={mistryhub}
               isBlog={false}
               title="MistryHub"
               description="Implemented Client Professionals registration and authentication to allow users to create accounts and log in securely.
-Provide users with the ability to create and manage their profiles, including personal information, booking management,
-and allow them to choose their preferences.
-Implement a booking calendar with date and time selection and facility to give reward points.
-Rating facility to allow users to choose their servicemen based on others experience"
+              Provide users with the ability to create and manage their profiles, including personal information, booking management,
+              and allow them to choose their preferences.
+              Implement a booking calendar with date and time selection and facility to give reward points.
+              Rating facility to allow users to choose their servicemen based on others experience"
               ghLink="https://github.com/codesquezze/MistryHub"
             />
           </Col>
